@@ -1,0 +1,82 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+input[type="email"], input[type="password"] {
+    width: 97%;
+    padding: 12px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="email"], input[type="password"]{
+    border-color: #4CAF50;
+    outline: none;
+}
+
+button[type="submit"], button[type="button"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button[type="button"] {
+    background-color: #42baf5;
+    color: #fff;
+    margin-top: 10px;
+}
+
+button[type="button"]:hover {
+    background-color: #39a2e2;
+}
+
+.or-separator {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.or-separator hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.or-separator span {
+    color: #666;
+    padding: 0 10px;
+    font-size: 14px;
+}

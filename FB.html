@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="FB.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="login-container">
+        <i class="fa-brands fa-facebook" style="font-size: 30px; margin: 10px;"></i>
+        <form id="loginForm" onsubmit="Demo(event)">
+            <input type="email" id="email" name="email" placeholder="Email address or phone number" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <button type="submit">Log In</button>
+            <a href="#" style="margin: 30px; margin-bottom: 10px;">Forgot account?</a>
+        </form>
+        <div class="or-separator">
+            <hr>
+            <span>or</span>
+            <hr>
+        </div>
+        <button type="button">Create New Account</button>
+    </div>
+    <script src="FB.js"></script>
+</body>
+
+</html>
